@@ -43,7 +43,11 @@ body{
 .big_button{
     text-decoration: none;
     background-color: red;
+    border-radius: 15px;
     color:white;
+    font-weight: 500;
+    padding: 14px 25px;
+    margin-top:10px;
 }
 
 h1{
@@ -72,6 +76,12 @@ ul{
     text-decoration:none;
 }
 
+.social i{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
 
 .movie {
     display: inline-block;
