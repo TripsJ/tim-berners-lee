@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
 
 
 *{
     padding: 0;
     margin:0;
     box-sizing: content-box;
+    color:#a79fa9
 }
 
 
@@ -26,25 +27,35 @@ body{
     display:block;
     padding: 30px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .first_box img{
 
     border-radius: 50%;
     border: 4px solid #cecece;
-    margin-left: 25%;
-    width: 120px;
+
     
     
 
 }
 
-.first_box h1{
+.big_button{
+    text-decoration: none;
+    background-color: red;
+    color:white;
+}
+
+h1{
     color:red;
     text-align: center;
     font-weight: 800;
 }
 
+h2{
+    color: #7d7d7e;
+    font-weight: 700;
+}
 ul{
     list-style-type: none;
     align-items: center;
@@ -64,12 +75,23 @@ ul{
 
 .movie {
     display: inline-block;
-    text-align: center;
+    text-align:justify;
 }
+
 
 .movie img{
     float:left;
-    width: 70px;
+    width: 80px;
     margin: 20px;
     max-width: 700px;
+}
+
+.movie h3{
+    text-align: center;
+    color: #7d7d7e;
+    font-weight: 500;
+}
+.his{
+    background-color: #d0d1d3;
+    color: #7d7d7e;
 }
